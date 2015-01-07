@@ -1,0 +1,32 @@
+<html ng-app="myApp">
+
+    <body>
+
+        <div id="container">
+
+            <h1>Angular Basics</h1>
+
+            <div class="main" ng-controller="MainCtrl as main">
+
+                <p>My name is {{main.name}}</p>
+
+                <p >My favorite color is <span ng-cloak>{{main.color}}</span> </p>
+
+                <p>My favorite color is <span ng-bind="main.color"/></p>
+
+                <input type="text" ng-model="main.color"  placeholder="What's your favorite color?" />
+
+
+
+            </div>
+
+        </div>
+
+
+       <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+       <script src="ng.js"></script>
+
+    </body>
+
+
+</html>

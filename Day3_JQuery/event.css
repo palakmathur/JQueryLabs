@@ -1,0 +1,13 @@
+.item{
+    float:left;
+    margin:0 10px 10px 0;
+}
+
+.wrapper{
+    width:250px;
+}
+
+/*.item:hover img,*/
+.item.hover img{
+    outline:2px solid #f90;
+}
